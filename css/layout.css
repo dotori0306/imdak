@@ -24,7 +24,19 @@ header .top_section .logo_area .search_area .search_txt { padding: 6px 25px; mar
 
 header .top_section .logo_area .search_area .search_btn { background: url(../img/icon_hd_search.png) center no-repeat; height: 25px; width: 26px; display: inline-block; position: absolute; right: 20px; top: 6px; }
 
-header .top_section .logo_area .search_area .recent_box { background: #f00; height: 300px; display: none; }
+header .top_section .logo_area .search_area .recent_box { background: #fff; width: 454px; display: none; }
+
+header .top_section .logo_area .search_area .recent_box span { display: block; }
+
+header .top_section .logo_area .search_area .recent_box .txt-wrap { padding: 25px 25px; font-size: 20px; border-top: 1px solid #dbdbdb; }
+
+header .top_section .logo_area .search_area .recent_box .txt-wrap .recent-search { font-weight: bold; margin-bottom: 10px; }
+
+header .top_section .logo_area .search_area .recent_box .txt-wrap .desc { font-size: 17px; }
+
+header .top_section .logo_area .search_area .recent_box .btn_close { padding: 10px 25px; background: #f4f5f8; width: 100%; display: block; -webkit-box-sizing: border-box; box-sizing: border-box; text-align: right; font-size: 17px; color: #888; }
+
+header .top_section .logo_area .search_area .recent_box .btn_close::after { content: ''; display: inline-block; background: url(../img/icon_sch_recent_del.png) no-repeat center; height: 17px; width: 12px; vertical-align: middle; margin-left: 10px; }
 
 header .top_section .utill_area { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; -webkit-box-flex: 1; -ms-flex: 1; flex: 1; position: absolute; right: 0; }
 
