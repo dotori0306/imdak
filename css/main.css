@@ -50,11 +50,11 @@
 
 .event_banner .pop-up-area a { height: 100%; display: block; }
 
-.event_banner .pop-up-area .pop-wrap::after { content: ''; display: block; background: url(https://wiseux.speedgabia.com/imdak/contents/web/page/main/popup_close.png) no-repeat center/cover; width: 88px; height: 88px; position: absolute; top: 0; right: 200px; cursor: pointer; }
-
 .event_banner .pop-up-area .pop-item { width: 50%; margin: 0 auto; margin-bottom: 5px; }
 
 .event_banner .pop-up-area .pop-item img { width: 100%; -o-object-fit: cover; object-fit: cover; }
+
+.event_banner .pop-up-area .btn-close { background: url(https://wiseux.speedgabia.com/imdak/contents/web/page/main/popup_close.png) no-repeat center/cover; width: 88px; height: 88px; position: absolute; top: 0; right: 200px; }
 
 .sc-time-sale { margin-top: 100px; }
 

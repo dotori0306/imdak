@@ -158,19 +158,7 @@
         width: 80%;
         display: none;
         
-        a{height: 100%;display: block;} 
-
-        .pop-wrap{
-            &::after{
-                content: '';
-                display: block;
-                background: url(https://wiseux.speedgabia.com/imdak/contents/web/page/main/popup_close.png) no-repeat center/cover;
-                width: 88px;height: 88px;
-                position: absolute;
-                top: 0;right: 200px;
-                cursor: pointer;
-            }
-        }
+        a{height: 100%;display: block;}
 
         .pop-item{
             width: 50%;
@@ -178,6 +166,13 @@
             margin-bottom: 5px;
 
             img{width: 100%;object-fit: cover;}
+        }
+
+        .btn-close{
+            background: url(https://wiseux.speedgabia.com/imdak/contents/web/page/main/popup_close.png) no-repeat center/cover;
+            width: 88px;height: 88px;
+            position: absolute;
+            top: 0;right: 200px;
         }
     }
 }

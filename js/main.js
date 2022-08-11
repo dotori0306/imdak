@@ -66,7 +66,7 @@ $('.event_banner .btn_all').click(function(e){
     $('body').addClass('bg');
     $('.pop-up-area').show();
 })
-$('.event_banner .pop-wrap', 'body').click(function(e){
+$('.event_banner .btn-close').click(function(e){
     e.preventDefault();
     $('body').removeClass('bg');
     $('.pop-up-area').hide();
