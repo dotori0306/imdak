@@ -48,6 +48,8 @@
 
 .event_banner .pop-up-area { z-index: 100; position: absolute; top: -30px; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); width: 80%; display: none; }
 
+.event_banner .pop-up-area a { height: 100%; display: block; }
+
 .event_banner .pop-up-area .pop-wrap::after { content: ''; display: block; background: url(https://wiseux.speedgabia.com/imdak/contents/web/page/main/popup_close.png) no-repeat center/cover; width: 88px; height: 88px; position: absolute; top: 0; right: 200px; cursor: pointer; }
 
 .event_banner .pop-up-area .pop-item { width: 50%; margin: 0 auto; margin-bottom: 5px; }

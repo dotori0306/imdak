@@ -157,6 +157,8 @@
         transform: translateX(-50%);
         width: 80%;
         display: none;
+        
+        a{height: 100%;display: block;}
 
         .pop-wrap{
             &::after{
@@ -174,6 +176,7 @@
             width: 50%;
             margin: 0 auto;
             margin-bottom: 5px;
+
             img{width: 100%;object-fit: cover;}
         }
     }
