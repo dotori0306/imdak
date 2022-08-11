@@ -10,7 +10,7 @@
 
 .prd_inner { max-width: 1350px; min-width: 1100px; margin: 0 auto; }
 
-.event_banner { width: 100%; text-align: center; }
+.event_banner { width: 100%; text-align: center; position: relative; }
 
 .event_banner .control_box { position: absolute; bottom: 20px; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); width: 1320px; z-index: 1; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; color: #fff; }
 
@@ -45,6 +45,14 @@
 .event_banner .control_box .btn_all { background-color: rgba(0, 0, 0, 0.5); width: 46px; height: 46px; border-radius: 50%; position: relative; }
 
 .event_banner .control_box .btn_all::after { content: ''; display: block; background: url(../img/mcon01-more-btn.png) no-repeat center; width: 15px; height: 20px; position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+
+.event_banner .pop-up-area { z-index: 100; position: absolute; top: -30px; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); width: 80%; display: none; }
+
+.event_banner .pop-up-area .pop-wrap::after { content: ''; display: block; background: url(https://wiseux.speedgabia.com/imdak/contents/web/page/main/popup_close.png) no-repeat center/cover; width: 88px; height: 88px; position: absolute; top: 0; right: 200px; cursor: pointer; }
+
+.event_banner .pop-up-area .pop-item { width: 50%; margin: 0 auto; margin-bottom: 5px; }
+
+.event_banner .pop-up-area .pop-item img { width: 100%; -o-object-fit: cover; object-fit: cover; }
 
 .sc-time-sale { margin-top: 100px; }
 

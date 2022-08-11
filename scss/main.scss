@@ -45,6 +45,7 @@
 .event_banner{
     width: 100%;
     text-align: center;
+    position: relative;
 
     .control_box{
         position: absolute;
@@ -147,7 +148,41 @@
             }
         }
     }
+
+    .pop-up-area{
+        z-index: 100;
+        position: absolute;        
+        top: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        display: none;
+
+        .pop-wrap{
+            &::after{
+                content: '';
+                display: block;
+                background: url(https://wiseux.speedgabia.com/imdak/contents/web/page/main/popup_close.png) no-repeat center/cover;
+                width: 88px;height: 88px;
+                position: absolute;
+                top: 0;right: 200px;
+                cursor: pointer;
+            }
+        }
+
+        .pop-item{
+            width: 50%;
+            margin: 0 auto;
+            margin-bottom: 5px;
+            img{width: 100%;object-fit: cover;}
+        }
+    }
 }
+
+
+
+
+
 
 .sc-time-sale{
     margin-top: 100px;
