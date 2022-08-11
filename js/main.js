@@ -70,7 +70,7 @@ $('.event_banner .pop-wrap', 'body').click(function(e){
     e.preventDefault();
     $('body').removeClass('bg');
     $('.pop-up-area').hide();
-})
+}) 
 
 
 // 리뷰영역
